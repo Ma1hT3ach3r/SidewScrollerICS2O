@@ -10,8 +10,8 @@ function setup() {
 
   //soundFormats('mp3');
   //mySound = loadSound("assets/energy.mp3");
-  let img = loadImage("mathman.jpeg");
-  let img2 = loadImage("glitch.jpeg")
+  let img = loadImage("mathman.jpg");
+  let img2 = loadImage("glitch.jpg")
 
   hero = new Mover(img);
   force = createVector(-0.01, 0);
